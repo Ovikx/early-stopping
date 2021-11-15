@@ -1,8 +1,14 @@
 # Early Stopping
----
-I'm too lazy to read the Tensorflow documentation, so I made this simple early stopper. After each training step, feed the object the testing loss result for that epoch and it will return a boolean that says whether or not to break the training loop. 
 
-**Example usage:**
+I'm too lazy to read the Tensorflow documentation, so I made this simple early stopper. After each training step, feed the object the testing loss result for that epoch and it will return a boolean that says whether or not to break the training loop. 
+# Installation
+
+Install through pip as shown:
+
+```bash
+pip install early-stopping
+```
+# Example Usage
 
 ```py
 from early_stopping import EarlyStopping
